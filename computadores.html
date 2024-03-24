@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página con Imágenes y Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .top-text {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+
+        .images-container img {
+            max-width: 200px;
+            margin-left: 10px;
+        }
+
+        .large-text {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-text">
+            <p>Aqui podras encontar los computadores gamig a los mejores precios</p>
+        </div>
+        <div class="images-container">
+            <img src="img/computadores.jpg" alt="Imagen 1">
+            <img src="img/ronaldo jose.jpg" alt="Imagen 2">
+            <img src="img/ronaldo palencia.jpg" alt="Imagen 3">
+        </div>
+        <div class="large-text">
+            <p>'Máquina electrónica capaz de realizar un tratamiento automático de la información y de resolver con gran rapidez problemas matemáticos y lógicos mediante programas informáticos' .</p>
+        </div>
+    </div>
+</body>
+
+</html>
